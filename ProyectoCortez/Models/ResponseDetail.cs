@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProyectoCortez.Models
@@ -17,16 +11,15 @@ namespace ProyectoCortez.Models
         [Key, Column(Order = 1)]
         public int QuestionID { get; set; }
 
-        public string QuestionnaireID { get; set; } // para poder relacionar con Option
+        public string QuestionnaireID { get; set; }
         public byte OptionID { get; set; }
 
         [ForeignKey("ResponseID")]
-        public Response Response { get; set; }
+        public virtual Response Response { get; set; }
 
         [ForeignKey("QuestionID")]
-        public Question Question { get; set; }
+        public virtual Question Question { get; set; }
 
-        [ForeignKey("QuestionnaireID,OptionID")]
-        public Option Option { get; set; }
+        public virtual Option Option { get; set; } // relación por clave compuesta se configura en Fluent API
     }
 }

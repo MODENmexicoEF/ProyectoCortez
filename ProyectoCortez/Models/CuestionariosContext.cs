@@ -25,5 +25,15 @@ namespace ProyectoCortez.Models
         public DbSet<Option> Options { get; set; }
         public DbSet<Response> Responses { get; set; }
         public DbSet<ResponseDetail> ResponseDetails { get; set; }
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ResponseDetail>()
+                .HasRequired(rd => rd.Option)
+                .WithMany()
+                .HasForeignKey(rd => new { rd.QuestionnaireID, rd.OptionID });
+        }
+
     }
 }

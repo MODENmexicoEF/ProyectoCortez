@@ -49,3 +49,5 @@ C:\Users\yee_j\source\repos\ProyectoCortez\ProyectoCortez\obj\Debug\ProyectoCort
 C:\Users\yee_j\source\repos\ProyectoCortez\ProyectoCortez\obj\Debug\Proyecto.A1902277.Up2Date
 C:\Users\yee_j\source\repos\ProyectoCortez\ProyectoCortez\bin\Debug\MySql.Data.EntityFramework.dll
 C:\Users\yee_j\source\repos\ProyectoCortez\ProyectoCortez\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\yee_j\source\repos\ProyectoCortez\ProyectoCortez\obj\Debug\ProyectoCortez.StartupForm.resources
+C:\Users\yee_j\source\repos\ProyectoCortez\ProyectoCortez\obj\Debug\ProyectoCortez.StudentRegisterForm.resources
