@@ -143,5 +143,22 @@ INSERT INTO Questions (QuestionnaireID,NumberInForm,Text,IsReverse) VALUES
 ('PSS14',14,'En el último mes, ¿con qué frecuencia has sentido que las dificultades se acumulan tanto que no puedes superarlas?',0);
 
 SELECT * FROM Options;
-
+select * from Users;
 select * from students;
+select * from ResponseDetails;
+
+
+SELECT
+    u.UserID,
+    s.Nombre,
+    q.Text AS Pregunta,
+    o.Text AS Respuesta
+FROM
+    ResponseDetails rd
+JOIN Responses r ON rd.ResponseID = r.ResponseID
+JOIN Users u ON r.UserID = u.UserID
+JOIN Students s ON s.UserID = u.UserID
+JOIN Questions q ON rd.QuestionID = q.QuestionID
+JOIN Options o ON rd.QuestionnaireID = o.QuestionnaireID AND rd.OptionID = o.OptionID
+ORDER BY
+    u.UserID, rd.ResponseID, q.NumberInForm;

@@ -114,13 +114,26 @@ namespace ProyectoCortez
                                     .OrderByDescending(r => r.TakenAt)
                                     .FirstOrDefault();
 
-                if (ultima != null && (DateTime.Now - ultima.TakenAt).TotalDays < 14)
+                if (ultima != null)
                 {
-                    MessageBox.Show("Debes esperar 14 días antes de volver a contestar esta encuesta.",
-                                    "Cooldown activo",
-                                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
+                    double diasTranscurridos = (DateTime.Now - ultima.TakenAt).TotalDays;
+                    double diasRestantes = 14 - diasTranscurridos;
+
+                    if (diasRestantes > 0)
+                    {
+                        MessageBox.Show(
+                            $"Ya respondiste esta encuesta el día {ultima.TakenAt:dd/MM/yyyy HH:mm}.\n\n" +
+                            $"Interpretación anterior: {ultima.Interpretation}\nPuntaje: {ultima.TotalScore}\n\n" +
+                            $"Podrás volver a contestarla en {Math.Ceiling(diasRestantes)} día(s).",
+                            "Ya contestada",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information
+                        );
+
+                        return;
+                    }
                 }
+
 
                 preguntasActuales = context.Questions
                                            .Where(q => q.QuestionnaireID == cuestionarioIDActual)
@@ -174,7 +187,7 @@ namespace ProyectoCortez
 
                         radio.CheckedChanged += (s, ev) =>
                         {
-                            var t = (Tuple<int, int>)((RadioButton)s).Tag;
+                            var t = (Tuple<int, byte>)((RadioButton)s).Tag;
                             if (((RadioButton)s).Checked)
                                 respuestasSeleccionadas[t.Item1] = (byte)t.Item2;
                         };
@@ -248,7 +261,10 @@ namespace ProyectoCortez
                     "Gracias por participar",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                Close();
+                var inicio = new StartupForm();  // <-- asegúrate que este form no requiere parámetros
+                inicio.Show();
+
+                this.Close();
             }
         }
 
