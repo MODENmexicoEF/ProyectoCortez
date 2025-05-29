@@ -153,38 +153,52 @@ namespace ProyectoCortez
             {
                 var context = new CuestionariosContext();
 
+                // Determinar el rol según el correo
+                int roleId = txtEmail.Text.EndsWith("@admin.com") ? 1 : 2;
+
                 // Crear usuario
                 var user = new User
                 {
                     Email = txtEmail.Text,
                     PasswordHash = BCrypt.Net.BCrypt.HashPassword(txtPassword.Text),
-                    RoleID = 2,
+                    RoleID = (byte)roleId,
                     CreatedAt = DateTime.Now
                 };
                 context.Users.Add(user);
                 context.SaveChanges();
 
-                var student = new Student
+                // Si es STUDENT, crea el perfil extra
+                if (roleId == 2)
                 {
-                    UserID = user.UserID,
-                    Nombre = txtNombre.Text,
-                    Edad = byte.Parse(txtEdad.Text),
-                    Sexo = cmbSexo.Text,
-                    Municipio = txtMunicipio.Text,
-                    Carrera = txtCarrera.Text,
-                    NoControl = int.Parse(txtNoControl.Text),
-                    semestre = int.Parse(txtSemestre.Text)
-                };
-                context.Students.Add(student);
-                context.SaveChanges();
+                    var student = new Student
+                    {
+                        UserID = user.UserID,
+                        Nombre = txtNombre.Text,
+                        Edad = byte.Parse(txtEdad.Text),
+                        Sexo = cmbSexo.Text,
+                        Municipio = txtMunicipio.Text,
+                        Carrera = txtCarrera.Text,
+                        NoControl = int.Parse(txtNoControl.Text),
+                        semestre = int.Parse(txtSemestre.Text)
+                    };
+                    context.Students.Add(student);
+                    context.SaveChanges();
+                }
 
-                MessageBox.Show("Registro exitoso.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                // new StudentQuestionnaireForm(user).Show(); this.Hide();
+                string mensaje = roleId == 1 ?
+                    "Administrador registrado correctamente." :
+                    "Estudiante registrado correctamente.";
+                MessageBox.Show(mensaje, "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                // Vuelve a la pantalla principal
+                new StartupForm().Show();
+                this.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al guardar datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }

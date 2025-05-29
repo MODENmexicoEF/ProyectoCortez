@@ -11,6 +11,8 @@ namespace ProyectoCortez
     public class StudentQuestionnaireForm : Form
     {
         private ComboBox cmbCuestionario;
+        private Panel panelDescripcion;
+        private Label lblDescripcion;
         private FlowLayoutPanel panelPreguntas;
         private Button btnEnviar;
         private readonly int userId;
@@ -33,6 +35,24 @@ namespace ProyectoCortez
             WindowState = FormWindowState.Maximized;
 
             // Contenedor principal --------------------------------------------------
+
+            var btnCerrarSesion = new Button
+            {
+                Text = "Cerrar sesión",
+                Font = new Font("Segoe UI", 12),
+                AutoSize = true,
+                Dock = DockStyle.Top,
+                Margin = new Padding(0, 15, 0, 0)
+            };
+
+            btnCerrarSesion.Click += (s, e) =>
+            {
+                this.Hide(); // Primero oculta el formulario actual
+                var startupForm = new StartupForm(); // Crea una nueva instancia
+                startupForm.FormClosed += (sender2, args) => this.Close(); // Cierra el actual cuando se cierre el nuevo
+                startupForm.Show(); // Muestra el StartupForm
+            };
+
             var layout = new TableLayoutPanel
             {
                 Dock = DockStyle.Fill,
@@ -40,10 +60,13 @@ namespace ProyectoCortez
                 RowCount = 4,
                 Padding = new Padding(30)
             };
-            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));
-            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));
-            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+            layout.RowCount = 5;
+            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // lblTitulo
+            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // cmbCuestionario
+            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // panelDescripcion                                                                                                                                                                                                                                           // panelDescripcion (altura fija)
+            layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F)); // panelPreguntas ocupa todo el restante
+            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // btnEnviar
+
 
             var lblTitulo = new Label
             {
@@ -61,6 +84,34 @@ namespace ProyectoCortez
             cmbCuestionario.Items.AddRange(new[] { "GAD7", "PSS14" });
             cmbCuestionario.SelectedIndexChanged += cmbCuestionario_SelectedIndexChanged;
 
+            // Añadir espaciado inferior al ComboBox
+            cmbCuestionario.Margin = new Padding(0, 0, 0, 10);
+
+            panelDescripcion = new Panel
+            {
+                AutoScroll = false,
+                AutoSize = true,
+                Dock = DockStyle.Fill, // CORREGIDO
+                Padding = new Padding(15, 10, 15, 10),
+                BorderStyle = BorderStyle.FixedSingle
+            };
+
+
+
+            lblDescripcion = new Label
+            {
+                Margin = new Padding(10),
+                // Establecer el tamaño de fuente para la descripción
+                Font = new Font("Segoe UI", 11.5f), // Puedes usar 11 o 11.5f
+                AutoSize = true,
+                MaximumSize = new Size(700, 0),
+                Text = "Selecciona una encuesta para ver su descripción."
+            };
+
+            panelDescripcion.Controls.Add(lblDescripcion); // ← ESTA LÍNEA ES LA CLAVE
+
+
+
             panelPreguntas = new FlowLayoutPanel
             {
                 FlowDirection = FlowDirection.TopDown,
@@ -68,11 +119,13 @@ namespace ProyectoCortez
                 AutoScroll = true,
                 WrapContents = false
             };
+
             panelPreguntas.Resize += (s, e) =>
             {
                 foreach (Control c in panelPreguntas.Controls)
                 {
                     c.Width = panelPreguntas.ClientSize.Width - 10;
+
                     foreach (Control sub in c.Controls)
                     {
                         if (sub is Label lbl)
@@ -80,6 +133,7 @@ namespace ProyectoCortez
                     }
                 }
             };
+
 
             btnEnviar = new Button
             {
@@ -92,8 +146,17 @@ namespace ProyectoCortez
 
             layout.Controls.Add(lblTitulo, 0, 0);
             layout.Controls.Add(cmbCuestionario, 0, 1);
-            layout.Controls.Add(panelPreguntas, 0, 2);
-            layout.Controls.Add(btnEnviar, 0, 3);
+            layout.Controls.Add(panelDescripcion, 0, 2); // aquí va el panel con scroll
+            layout.Controls.Add(panelPreguntas, 0, 3);
+            layout.Controls.Add(btnEnviar, 0, 4);
+            layout.Controls.Add(btnCerrarSesion, 0, 5);
+            layout.RowCount = 6; // Aumenta el número de filas
+            layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); // Nueva fila para el botón
+
+
+
+            layout.RowCount = 5; // << aumenta el número de filas para evitar que se sobreponga
+
 
             Controls.Add(layout);
         }
@@ -103,16 +166,48 @@ namespace ProyectoCortez
         // ----------------------------------------------------------------------
         private void cmbCuestionario_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (cmbCuestionario.SelectedItem == null)
+                return;
+
             cuestionarioIDActual = cmbCuestionario.SelectedItem.ToString();
-            panelPreguntas.Controls.Clear();
             respuestasSeleccionadas.Clear();
+            panelPreguntas.Controls.Clear();
+            btnEnviar.Enabled = true; // Habilitar el botón por defecto al cambiar la encuesta
+
+            // Actualiza la descripción basada en la selección
+            if (cuestionarioIDActual == "PSS14")
+            {
+                lblDescripcion.Text = "Escala de Estrés Percibido (PSS-10) (Cohen et al., 1983). Es un instrumento que mide el nivel de " +
+                                      "estrés percibido durante el último mes. Consta de 14 preguntas con un formato de respuesta tipo " +
+                                      "Likert de cinco opciones. Existen evidencias de sus propiedades psicométricas en idioma español ." +
+                                      "(Campos-Aria et al., 2009; Gonzáles & Landero, 2007). A partir de este instrumento, se " +
+                                      "consideraron las 10 preguntas que constituyen el PSS-10, el cual ha sido aplicado en otras " +
+                                      "investigaciones en Latinoamérica (Campos-Aria, et al., 2009; Domínguez-Lara, et al., 2022). Se ha " +
+                                      "constatado una estructura de 2 factores en la versión de 14 ítems (PSS-14) y de 10 ítems (PSS-10) y " +
+                                      "una confiabilidad adecuada, con índices ω McDonald's de .84 y .81 en el caso del PSS-14, y de .83 " +
+                                      "y .70 en el PSS-10 (Domínguez-Lara, et al., 2022).";
+            }
+            else if (cuestionarioIDActual == "GAD7")
+            {
+                lblDescripcion.Text = "El GAD-7 es un instrumento auto aplicable de 7 ítems que se utiliza ampliamente para evaluar el " +
+                                      "trastorno de ansiedad generalizada durante las últimas 2 semanas según el DSM-51. Cada " +
+                                      "elemento se puntúa en una escala Likert de 4 puntos que indica la presencia de los síntomas, que " +
+                                      "van de 0 (nada) a 3 (casi todos los días). La puntuación total de GAD-7 puede variar de 0 a 21 y una " +
+                                      "puntuación > 10 indica un trastorno de ansiedad generalizada." +
+                                      "\n\nUso académico: Muy útil para investigar niveles de ansiedad en grupos poblacionales o estudiantes.";
+            }
+            else
+            {
+                lblDescripcion.Text = "Selecciona una encuesta para ver su descripción.";
+            }
+
 
             using (var context = new CuestionariosContext())
             {
                 var ultima = context.Responses
-                                    .Where(r => r.UserID == userId && r.QuestionnaireID == cuestionarioIDActual)
-                                    .OrderByDescending(r => r.TakenAt)
-                                    .FirstOrDefault();
+                                   .Where(r => r.UserID == userId && r.QuestionnaireID == cuestionarioIDActual)
+                                   .OrderByDescending(r => r.TakenAt)
+                                   .FirstOrDefault();
 
                 if (ultima != null)
                 {
@@ -130,20 +225,21 @@ namespace ProyectoCortez
                             MessageBoxIcon.Information
                         );
 
+                        btnEnviar.Enabled = false; // Deshabilitar el botón si la encuesta ya fue respondida recientemente
                         return;
                     }
                 }
 
 
                 preguntasActuales = context.Questions
-                                           .Where(q => q.QuestionnaireID == cuestionarioIDActual)
-                                           .OrderBy(q => q.NumberInForm)
-                                           .ToList();
+                                               .Where(q => q.QuestionnaireID == cuestionarioIDActual)
+                                               .OrderBy(q => q.NumberInForm)
+                                               .ToList();
 
                 var opciones = context.Options
-                                      .Where(o => o.QuestionnaireID == cuestionarioIDActual)
-                                      .OrderBy(o => o.OptionID)
-                                      .ToList();
+                                       .Where(o => o.QuestionnaireID == cuestionarioIDActual)
+                                       .OrderBy(o => o.OptionID)
+                                       .ToList();
 
                 foreach (var pregunta in preguntasActuales)
                 {
@@ -220,8 +316,8 @@ namespace ProyectoCortez
             using (var context = new CuestionariosContext())
             {
                 var opciones = context.Options
-                                      .Where(o => o.QuestionnaireID == cuestionarioIDActual)
-                                      .ToDictionary(o => o.OptionID, o => o.Score);
+                                     .Where(o => o.QuestionnaireID == cuestionarioIDActual)
+                                     .ToDictionary(o => o.OptionID, o => o.Score);
 
                 int total = 0;
 
@@ -261,10 +357,46 @@ namespace ProyectoCortez
                     "Gracias por participar",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                var inicio = new StartupForm();  // <-- asegúrate que este form no requiere parámetros
-                inicio.Show();
+                // Verificamos si aún queda alguna encuesta disponible (reutilizando el mismo contexto)
+                var encuestas = new[] { "GAD7", "PSS14" };
+                bool algunaDisponible = false;
 
-                this.Close();
+                foreach (var enc in encuestas)
+                {
+                    var ultima = context.Responses
+                                         .Where(r => r.UserID == userId && r.QuestionnaireID == enc)
+                                         .OrderByDescending(r => r.TakenAt)
+                                         .FirstOrDefault();
+
+                    if (ultima == null || (DateTime.Now - ultima.TakenAt).TotalDays >= 14)
+                    {
+                        algunaDisponible = true;
+                        break;
+                    }
+                }
+
+                if (algunaDisponible)
+                {
+                    // Reinicia el formulario
+                    cmbCuestionario.SelectedIndex = -1;
+                    panelPreguntas.Controls.Clear();
+                    respuestasSeleccionadas.Clear();
+                    preguntasActuales.Clear();
+                    cuestionarioIDActual = null;
+                }
+                else
+                {
+                    MessageBox.Show("Gracias por completar todas las encuestas.\nPuedes cerrar esta ventana.",
+                                    "Finalizado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // Simplemente desactiva el combo y el botón
+                    cmbCuestionario.Enabled = false;
+                    btnEnviar.Enabled = false;
+                    panelPreguntas.Controls.Clear();
+
+                    MessageBox.Show("Gracias por completar todas las encuestas. Puedes seguir navegando por la aplicación.",
+                                    "Encuestas completadas", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
             }
         }
 

@@ -80,7 +80,9 @@ namespace ProyectoCortez
             buttonPanel.Controls.Add(btnLogin);
             buttonPanel.Controls.Add(btnVolver);
 
+            
             layout.Controls.Add(buttonPanel, 0, layout.RowCount);
+
             layout.SetColumnSpan(buttonPanel, 2);
 
             var container = new TableLayoutPanel
@@ -154,10 +156,10 @@ namespace ProyectoCortez
 
                 if (user.RoleID == 1)
                 {
-                    // Aquí iría tu AdminDashboard si lo tienes
-                    // new AdminDashboard().Show();
-                    MessageBox.Show("Panel de administrador aún no implementado.");
+                    new AdminDashboardForm().Show();
+                    this.Hide(); // ocultar el login
                 }
+
                 else
                 {
                     var cuestionarioForm = new StudentQuestionnaireForm(user);

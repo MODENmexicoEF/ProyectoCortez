@@ -147,7 +147,7 @@ select * from Users;
 select * from students;
 select * from ResponseDetails;
 
-
+use cuestionarios_psi;
 SELECT
     u.UserID,
     s.Nombre,

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|c:\\users\\yee_j\\source\\repos\\proyectocortez\\proyectocortez\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|c:\\users\\yee_j\\source\\repos\\proyectocortez\\proyectocortez\\forms\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentregisterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentregisterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\startupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\startupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\cuestionarioscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\cuestionarioscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +19,24 @@
       "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\cuestionarioscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\cuestionarioscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\responsedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\responsedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentregisterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentregisterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentregisterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentregisterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|c:\\users\\yee_j\\source\\repos\\proyectocortez\\proyectocortez\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\responsedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\responsedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|c:\\users\\yee_j\\source\\repos\\proyectocortez\\proyectocortez\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +47,48 @@
       "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\startupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\option.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|c:\\users\\yee_j\\source\\repos\\proyectocortez\\proyectocortez\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\startupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\startupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\studentquestionnaireform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|c:\\users\\yee_j\\source\\repos\\proyectocortez\\proyectocortez\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\forms\\startupform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\forms\\startupform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\proyectocortez\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7643669-C243-4708-BE8B-BE38CB53DCB0}|ProyectoCortez\\ProyectoCortez.csproj|solutionrelative:proyectocortez\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,30 +106,198 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "AdminDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\AdminDashboardForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\AdminDashboardForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\AdminDashboardForm.cs",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\AdminDashboardForm.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAADwvwEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:07:28.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Role.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:58:21.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CuestionariosContext.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\CuestionariosContext.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\CuestionariosContext.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\CuestionariosContext.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\CuestionariosContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:56:05.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StartupForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StartupForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs [Design]",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StartupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:02:23.491Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\Form1.cs",
               "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\Form1.cs [Design]",
               "RelativeToolTip": "ProyectoCortez\\Forms\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:56:42.41Z"
+              "WhenOpened": "2025-05-12T05:56:42.41Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentQuestionnaireForm.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
-              "ViewState": "AgIAAPwAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Option.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Option.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Option.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Option.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\Option.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:52:56.494Z"
+              "WhenOpened": "2025-05-12T05:59:29.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\Form1.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\Form1.cs",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\Form1.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAiwKEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:37:01.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResponseDetail.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\ResponseDetail.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\ResponseDetail.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\ResponseDetail.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\ResponseDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T06:00:59.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartupForm.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StartupForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StartupForm.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:49:05.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentRegisterForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentRegisterForm.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAiwKMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:55:10.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Student.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\Student.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:05:25.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Response.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:56:06.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRegisterForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentRegisterForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs [Design]",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentRegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:19:03.227Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentQuestionnaireForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs [Design]",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:33:50.443Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Question.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Question.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:56:03.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoCortez\\Program.cs",
@@ -121,82 +305,51 @@
               "RelativeToolTip": "ProyectoCortez\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T07:42:00.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CuestionariosContext.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\CuestionariosContext.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\CuestionariosContext.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\CuestionariosContext.cs",
-              "RelativeToolTip": "ProyectoCortez\\Models\\CuestionariosContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA8wB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:56:05.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Student.cs",
-              "RelativeToolTip": "ProyectoCortez\\Models\\Student.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:05:25.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\User.cs",
-              "RelativeToolTip": "ProyectoCortez\\Models\\User.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:05:16.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StartupForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StartupForm.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs [Design]",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StartupForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:02:23.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StartupForm.resx",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.resx",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StartupForm.resx",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.resx",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StartupForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-12T04:02:22.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\App.config",
-              "RelativeDocumentMoniker": "ProyectoCortez\\App.config",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\App.config",
-              "RelativeToolTip": "ProyectoCortez\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-12T04:00:49.08Z",
+              "WhenOpened": "2025-05-12T07:42:00.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Services\\AuthService.cs",
+              "RelativeToolTip": "ProyectoCortez\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:00:45.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\User.cs",
+              "RelativeToolTip": "ProyectoCortez\\Models\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T04:05:16.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StudentQuestionnaireForm.cs",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T05:52:56.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\packages.config",
               "RelativeDocumentMoniker": "ProyectoCortez\\packages.config",
@@ -208,97 +361,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Services\\AuthService.cs",
-              "RelativeToolTip": "ProyectoCortez\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:00:45.856Z"
+              "DocumentIndex": 20,
+              "Title": "StartupForm.resx",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.resx",
+              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StartupForm.resx",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.resx",
+              "RelativeToolTip": "ProyectoCortez\\Forms\\StartupForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-12T04:02:22.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\Form1.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\Form1.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\Form1.cs",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\Form1.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAqwKwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T03:37:01.322Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentRegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentRegisterForm.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentRegisterForm.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAALUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T03:55:10.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Option.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Option.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\Option.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\Option.cs",
-              "RelativeToolTip": "ProyectoCortez\\Models\\Option.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T05:59:29.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentQuestionnaireForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs [Design]",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentQuestionnaireForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T07:33:50.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ResponseDetail.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\ResponseDetail.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Models\\ResponseDetail.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Models\\ResponseDetail.cs",
-              "RelativeToolTip": "ProyectoCortez\\Models\\ResponseDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T06:00:59.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentRegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StudentRegisterForm.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StudentRegisterForm.cs [Design]",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StudentRegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T04:19:03.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "StartupForm.cs",
-              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs",
-              "RelativeDocumentMoniker": "ProyectoCortez\\Forms\\StartupForm.cs",
-              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\Forms\\StartupForm.cs",
-              "RelativeToolTip": "ProyectoCortez\\Forms\\StartupForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T03:49:05.499Z"
+              "DocumentIndex": 19,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\App.config",
+              "RelativeDocumentMoniker": "ProyectoCortez\\App.config",
+              "ToolTip": "C:\\Users\\yee_j\\source\\repos\\ProyectoCortez\\ProyectoCortez\\App.config",
+              "RelativeToolTip": "ProyectoCortez\\App.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-12T04:00:49.08Z",
+              "EditorCaption": ""
             }
           ]
         }
