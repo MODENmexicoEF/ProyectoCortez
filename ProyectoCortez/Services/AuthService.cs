@@ -1,40 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using System.Linq;
+using MySql.Data.MySqlClient;
 using ProyectoCortez.Models;
-using BCrypt.Net;
 
 namespace ProyectoCortez.Services
 {
     public class AuthService
     {
-        private readonly CuestionariosContext _context;
+        private readonly CuestionariosContext _ctx = new CuestionariosContext();
 
-        public AuthService()
-        {
-            _context = new CuestionariosContext();
-        }
-
+        /// <summary>Devuelve el usuario si las credenciales son válidas; de lo contrario null.</summary>
         public User Login(string email, string password)
         {
-            try
-            {
-                var user = _context.Users.FirstOrDefault(u => u.Email == email);
-                if (user != null && BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
-                    return user;
+            var user = _ctx.Database.SqlQuery<User>(
+                           "CALL LoginUsuario(@mail)",
+                           new MySqlParameter("mail", email))
+                       .FirstOrDefault();
 
-                return null;
-            }
-            catch (Exception ex)
-            {
-                throw new ApplicationException("No se pudo conectar con la base de datos. Revisa la configuración. \n\nDetalles técnicos: " + ex.Message);
-            }
+            return (user != null && BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
+                   ? user
+                   : null;
         }
-
-
     }
 }

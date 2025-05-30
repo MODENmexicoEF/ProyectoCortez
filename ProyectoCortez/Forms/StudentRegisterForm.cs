@@ -3,6 +3,9 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using BCrypt.Net;
+using MySql.Data.MySqlClient;
+using System.Linq; // <- ESTE ES EL QUE FALTA
+
 
 namespace ProyectoCortez
 {
@@ -152,37 +155,31 @@ namespace ProyectoCortez
             try
             {
                 var context = new CuestionariosContext();
-
-                // Determinar el rol según el correo
+                var passwordHash = BCrypt.Net.BCrypt.HashPassword(txtPassword.Text);
                 int roleId = txtEmail.Text.EndsWith("@admin.com") ? 1 : 2;
 
-                // Crear usuario
-                var user = new User
-                {
-                    Email = txtEmail.Text,
-                    PasswordHash = BCrypt.Net.BCrypt.HashPassword(txtPassword.Text),
-                    RoleID = (byte)roleId,
-                    CreatedAt = DateTime.Now
-                };
-                context.Users.Add(user);
-                context.SaveChanges();
+                // 1. Registrar usuario y obtener el ID generado
+                int userId = context.Database.SqlQuery<int>(
+                    "CALL RegistrarUsuario(@p_email, @p_passwordHash, @p_roleID)",
+                    new MySqlParameter("p_email", txtEmail.Text),
+                    new MySqlParameter("p_passwordHash", passwordHash),
+                    new MySqlParameter("p_roleID", roleId)
+                ).FirstOrDefault();
 
-                // Si es STUDENT, crea el perfil extra
+                // 2. Si es estudiante, registrar en Students
                 if (roleId == 2)
                 {
-                    var student = new Student
-                    {
-                        UserID = user.UserID,
-                        Nombre = txtNombre.Text,
-                        Edad = byte.Parse(txtEdad.Text),
-                        Sexo = cmbSexo.Text,
-                        Municipio = txtMunicipio.Text,
-                        Carrera = txtCarrera.Text,
-                        NoControl = int.Parse(txtNoControl.Text),
-                        semestre = int.Parse(txtSemestre.Text)
-                    };
-                    context.Students.Add(student);
-                    context.SaveChanges();
+                    context.Database.ExecuteSqlCommand(
+                        "CALL RegistrarEstudiante(@p_userID, @p_nombre, @p_edad, @p_sexo, @p_municipio, @p_carrera, @p_noControl, @p_semestre)",
+                        new MySqlParameter("p_userID", userId),
+                        new MySqlParameter("p_nombre", txtNombre.Text),
+                        new MySqlParameter("p_edad", byte.Parse(txtEdad.Text)),
+                        new MySqlParameter("p_sexo", cmbSexo.Text),
+                        new MySqlParameter("p_municipio", txtMunicipio.Text),
+                        new MySqlParameter("p_carrera", txtCarrera.Text),
+                        new MySqlParameter("p_noControl", int.Parse(txtNoControl.Text)),
+                        new MySqlParameter("p_semestre", int.Parse(txtSemestre.Text))
+                    );
                 }
 
                 string mensaje = roleId == 1 ?
@@ -190,7 +187,6 @@ namespace ProyectoCortez
                     "Estudiante registrado correctamente.";
                 MessageBox.Show(mensaje, "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Vuelve a la pantalla principal
                 new StartupForm().Show();
                 this.Close();
             }
